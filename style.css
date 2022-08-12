@@ -4,7 +4,7 @@
     --light-grey: #C8C8C8;
     --text-color: #9C9AB6;
     --background-modal:  #9c9ab683;
-    --window-modal: #4d4c59a9;
+    --window-modal: #4d4c59c0;
   }
 
 * {
@@ -101,6 +101,10 @@ body {
 .modal > .title {
     text-align: center;
     text-shadow: 0 0 0.5rem var(--black);
+}
+
+.modal .btn {
+    font-weight: bold;
 }
 
  form {
