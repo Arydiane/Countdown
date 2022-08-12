@@ -12,34 +12,45 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Ready to launch in...</h1>
-        <div class="countdown-container">
-            <div class="days">
-                <p class="legend">Dias</p>
-                <p class="text" id="days">00</p>
+        <div>
+            <h1 class="title">Ready to launch in...</h1>
+            <div class="countdown-container">
+                <div class="days">
+                    <p class="legend">Dias</p>
+                    <p class="text" id="days">00</p>
+                </div>
+                <div class="hours">
+                    <p class="legend">Horas</p>
+                    <p class="text" id="hours">00</p>
+                </div>
+                <div class="minutes">
+                    <p class="legend">Minutos</p>
+                    <p class="text" id="minutes">00</p>
+                </div>
+                <div class="seconds">
+                    <p class="legend">Segundos</p>
+                    <p class="text" id="seconds">00</p>
+                </div>
             </div>
-            <div class="hours">
-                <p class="legend">Horas</p>
-                <p class="text" id="hours">00</p>
-            </div>
-            <div class="minutes">
-                <p class="legend">Minutos</p>
-                <p class="text" id="minutes">00</p>
-            </div>
-            <div class="seconds">
-                <p class="legend">Segundos</p>
-                <p class="text" id="seconds">00</p>
-            </div>
+            <p class="subtitle">Inscreva-se para saber mais sobre o lançamento</p>
+            <button class="btn">Inscreva-se</button>
         </div>
-    
-        <p class="subtitle">Inscreva-se para saber mais sobre o lançamento</p>
-        <button class="btn">Inscreva-se</button>
-
-
-
+        <img src="./images/rocket.svg" alt="Lançamento de um foguete">
     </div>
 
-    <img src="./images/rocket.svg" alt="Lançamento de um foguete">
+    <div class="modal-window inactive">
+        <div class="modal">
+            <button class="close" id="close">X</button>
+            <h2 class="title">Inscreva-se</h2>
+            <form action="">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" autofocus required>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
