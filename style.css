@@ -19,8 +19,10 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
     color: var(--text-color);
-
+    background: url(./images/top-image.svg) no-repeat, url(./images/bottom-image.svg) no-repeat;
+    background-position: top, bottom;
 }
 
  .container {
