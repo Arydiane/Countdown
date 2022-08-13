@@ -33,6 +33,11 @@ body {
     text-align: center;
  }
 
+ img {
+   width: 100%;
+   height: auto;
+ }
+
  .subtitle {
     font-size: 1.4rem;
  }
@@ -103,6 +108,7 @@ body {
 .modal > .title {
     text-align: center;
     text-shadow: 0 0 0.5rem var(--black);
+    padding-top: 1rem;
 }
 
 .modal .btn {
